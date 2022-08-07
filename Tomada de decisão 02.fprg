@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ronaldo (UFPE)"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-07 10:55:17 "/>
+        <attribute name="created" value="Um9uYWxkbyAoVUZQRSk7Uk9OUVVFU0lMLURFU0tUOzIwMjItMDgtMDc7IjEwOjUxOjM5ICI7MzQ2MQ=="/>
+        <attribute name="edited" value="Um9uYWxkbyAoVUZQRSk7Uk9OUVVFU0lMLURFU0tUOzIwMjItMDgtMDc7IjEwOjU1OjE3ICI7MTszNTY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1, N2, N3, N4, MEDIA" type="Real" array="False" size=""/>
+            <input variable="N1"/>
+            <input variable="N2"/>
+            <input variable="N3"/>
+            <input variable="N4"/>
+            <assign variable="MEDIA" expression="(N1+N2+N3+N4)/4"/>
+            <output expression="MEDIA" newline="True"/>
+            <if expression="MEDIA&gt;=7">
+                <then>
+                    <output expression="&quot;PARAB&#201;NS! VOC&#202; FOI APROVADO.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;INFELIZMENTE VOC&#202; FOI REPROVADO.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
