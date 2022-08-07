@@ -4,19 +4,19 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Ronaldo (UFPE)"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-08-07 11:16:05 "/>
+        <attribute name="saved" value="2022-08-07 11:46:42 "/>
         <attribute name="created" value="Um9uYWxkbyAoVUZQRSk7Uk9OUVVFU0lMLURFU0tUOzIwMjItMDgtMDc7IjExOjA4OjMzICI7MzQ1OA=="/>
-        <attribute name="edited" value="Um9uYWxkbyAoVUZQRSk7Uk9OUVVFU0lMLURFU0tUOzIwMjItMDgtMDc7IjExOjE2OjA1ICI7MjszNTY1"/>
+        <attribute name="edited" value="Um9uYWxkbyAoVUZQRSk7Uk9OUVVFU0lMLURFU0tUOzIwMjItMDgtMDc7IjExOjQ2OjQyICI7MzszNTcw"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="NUMERO, LIMITE" type="Integer" array="False" size=""/>
             <assign variable="NUMERO" expression="0"/>
-            <assign variable="LIMITE" expression="20"/>
+            <assign variable="LIMITE" expression="10"/>
             <while expression="NUMERO&lt;=LIMITE">
-                <output expression="&quot;CONTAGEM ATUAL &quot; &amp; NUMERO" newline="True"/>
-                <assign variable="NUMERO" expression="NUMERO+2"/>
+                <output expression="&quot;9 x &quot; &amp; NUMERO &amp; &quot; = &quot; &amp; 9*NUMERO" newline="True"/>
+                <assign variable="NUMERO" expression="NUMERO+1"/>
             </while>
         </body>
     </function>
